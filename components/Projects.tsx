@@ -6,8 +6,8 @@ import WebCard from './WebCard'
 
 const Projects = () => {
   return (
-    <div className='h-auto flex flex-col justify-start items-start bg-gray-100' id='projects'>
-      <div className="bg-[#481f7e] w-screen h-40 flex justify-center items-center text-[#d4d1e9] text-4xl md:text-5xl font-bold pr-16">
+    <div className='h-auto flex flex-col justify-start items-start bg-[#edebf7]' id='projects'>
+      <div className=" w-screen h-40 flex justify-center items-center text-[#481f7e] text-6xl md:text-8xl font-bold pr-16 mt-10">
         Projects
       </div>
       <div className="flex flex-col justify-center items-center w-full my-8 gap-16 pr-12 ">
@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
         
         
-        <div className="font-black ">and more to come</div>
+        <div className="font-black text-[#481f7e]">and more to come</div>
       </div>
       
     </div>

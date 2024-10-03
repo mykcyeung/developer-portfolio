@@ -40,9 +40,11 @@ const Contact = () => {
     <div className='h-auto md:my-10'>
       <div className='h-auto flex flex-col justify-center items-center text-white' id="contact">
         <div className="bg-orange-600 w-full md:w-[85vw] flex flex-col justify-center items-center py-16 md:mr-12 ">
-      <div className="text-xl font-bold lg:text-4xl md:text-3xl lg:self-center hidden md:flex">Let's get in touch!</div>
+      
+      <div className="flex flex-col">
+      <div className="text-3xl font-bold lg:text-4xl md:text-3xl lg:self-center ">Let's get in touch!</div>
       {/* CARD CONTAINER*/}
-      <div className="flex flex-col lg:flex-row lg:items-center items-start justify-center gap-16 lg:gap-24 mt-14 pr-8">
+      <div className="gap-16 lg:gap-24 mt-12 w-[60vw] md:w-[40vw] mr-8 md:mr-2">
         {/* NAME */}
         <div className="flex gap-4 lg:gap-6 items-center justify-center">
           {/* <div className="font-extrabold text-2xl  lg:text-4xl lg:min-w-[200px]">Jay Yeung</div> */}
@@ -59,7 +61,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col gap-2 w-[40vw]">
+          className="flex flex-col gap-2 w-full">
           <div className="font-bold mb-8 ">Hi Jay</div>
           <textarea
             rows={6}
@@ -77,7 +79,7 @@ const Contact = () => {
           <button className=" underline font-bold self-start flex justify-center items-center mt-1 gap-2 hover:scale-105 duration-200">
             Send <span><IoMdMail /></span>
           </button>
-                <div className="flex flex-row gap-4 md:gap-6 lg:gap-8">
+                {/* <div className="flex flex-row gap-4 md:gap-6 lg:gap-8">
                 <Link href="https://wa.me/447826182904" target="_blank">
              <IoLogoWhatsapp style={{height: 26, width:26, color: "white"}} />
         </Link>
@@ -90,7 +92,7 @@ const Contact = () => {
               height={24}
             />
           </Link>
-        ))}
+        ))} */}
         {/* {socialMedia.map(item => (
             <SocialIcon
               network={item.media}
@@ -101,7 +103,7 @@ const Contact = () => {
               key={item.media}
             />
         ))} */}
-            </div>
+            {/* </div> */}
             </div>
           {success && <div className="text-sm mt-6">Thanks for getting in touch!
             <br />
@@ -112,7 +114,8 @@ const Contact = () => {
             Have you checked your email address?
           </div>}
         </form>
-      </div>
+            </div>
+            </div>
         </div>
         </div>
     </div>
