@@ -65,7 +65,9 @@ const AboutMe = () => {
             >
               <div className="text-3xl md:text-4xl font-black mb-2">My Journey</div>
               <p className="text-sm font-light md:text-md md:font-normal">
-              I began by learning through tutorial videos on YouTube. At first, everything felt unfamiliar, but as I gradually built up a basic understanding, I transitioned to various educational platforms to continue learning. Now, I've become more proficient in using Next.js and have developed a solid understanding of different programming languages.
+                  I&apos;ve focused on structured learning, using platforms like YouTube and tutorials, and dedicating time to hands-on practice by building my own projects. I also try to approach programming with the same mindset I used in design: breaking down complex problems into smaller, manageable tasks.
+                  <br />
+                  Now, I've become more proficient in using Next.js and have developed a solid understanding of different programming languages.
               </p>
             </button>
 
